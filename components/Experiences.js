@@ -11,7 +11,7 @@ import { changeSection } from '@/reducers/activePage';
 
 export default function Experiences() {
     const {ref,inView} = useInView({
-        threshold: 0.75,
+        threshold: 0.1,
       })
       const dispatch = useDispatch()
       useEffect(() => {

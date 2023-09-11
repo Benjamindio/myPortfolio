@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Intro from '@/components/Intro'
 import SectionDivider from '@/components/SectionDivider'
@@ -6,22 +7,27 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Experiences from '@/components/Experiences'
 import Contact from '@/components/Contact'
+import Header from '@/components/Header'
+import { Provider } from 'react-redux'
+import {configureStore} from '@reduxjs/toolkit'
+import activePage from '@/reducers/activePage'
 
-export const metadata = {
-  title: 'Benjamin Diomat | Portfolio',
-  description: 'Bienvenue sur le portfolio de Benjamin Diomat full-stack developer junior.',
-}
 export default function Home() {
+  const store = configureStore({
+    reducer:{activePage},
+  })
   return (
     <main className="flex flex-col items-center px-4">
-      
-      <Intro />
-      <SectionDivider />
-      <About />
-      <Projects />
-      <Skills />
-      <Experiences />
-      <Contact />
+       <Provider store={store}>
+        <Header />
+        <Intro />
+        <SectionDivider />
+        <About />
+        <Projects />
+        <Skills />
+        <Experiences />
+        <Contact />
+      </Provider>
     </main>
   )
 }

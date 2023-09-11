@@ -10,7 +10,7 @@ import { changeSection } from '@/reducers/activePage';
 export default function Projects() {
   const {ref,inView} = useInView({
     
-    threshold: 0.6,
+    threshold: 0.4,
   })
   const dispatch = useDispatch()
   useEffect(() => {
