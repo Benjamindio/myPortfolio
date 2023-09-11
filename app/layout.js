@@ -15,10 +15,7 @@ const store = configureStore({
 })
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Benjamin Diomat | Portfolio',
-  description: 'Bienvenue sur le portfolio de Benjamin Diomat full-stack developer junior.',
-}
+
 
 export default function RootLayout({ children }) {
   return (
