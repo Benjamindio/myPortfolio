@@ -78,7 +78,7 @@ export default function Intro() {
             >Me contacter <BsArrowRight className='opacity-70 group-hover:trasnlate-x-1 transition'/></Link>
 
             <a className=' group bg-white rounded-full px-7 py-3 flex items-center gap-2  outline-none focus:scale-110 hover:scale-110 active:scale-105
-            transition cursor-pointer borderBlack' href="/CV.pdf" download>Télécharger mon CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/></a>
+            transition cursor-pointer borderBlack' href="/CV-Benjamin-Diomat.pdf" download>Télécharger mon CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/></a>
 
             <a className='bg-white rounded-full text-gray-700 p-4 flex items-center gap-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105
             transition cursor-pointer borderBlack' href="https://www.linkedin.com/in/benjamin-diomat/" target="_blank"><BsLinkedin /></a>
