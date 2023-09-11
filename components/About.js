@@ -27,7 +27,7 @@ export default function About() {
     id='about'>
         <SectionHeading name="A propos"/>
         <p className='mb-3'>
-            Après un master en <span className="font-medium">Digital marketing & Web Strategy et 3 ans passé chez Side</span>, 
+            Après un master en <span className="font-medium">Digital marketing & Web Strategy et 3 ans passés chez Side</span>, 
             j'ai décidé de lancer <span className="underline">ma reconversion</span> pour suivre <span className='underline'>ma passion pour la programmation</span>. 
             Après 10 semaines intensives au sein du <span className="underline">bootcamp de La Capsule</span>, me voilà enfin diplômé d'un titre RNCP de niveau 6 : 
             <span className="font-medium">Concepteur-développeur d’applications web & mobile</span>.
