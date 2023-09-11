@@ -60,7 +60,7 @@ export default function Intro() {
             <span className='font-bold'>Bonjour, je m'appelle Benjamin Diomat. </span> 
             Je suis <span className='font-bold'>full-stack developer junior</span>.
             J'aime construire <span className='italic'>des sites & applications mobile</span>.
-            Mon gros focus est sur <span className='underline'>React(NextJs)</span>
+            Mon gros focus du moment est sur <span className='underline'>React(NextJs)</span>
         </motion.h1>
         <motion.div 
         className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
