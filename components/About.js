@@ -29,8 +29,7 @@ export default function About() {
         <p className='mb-3'>
             Après un master en <span className="font-medium">Digital marketing & Web Strategy et 3 ans passés chez Side</span>, 
             j'ai décidé de lancer <span className="underline">ma reconversion</span> pour suivre <span className='underline'>ma passion pour la programmation</span>. 
-            Après 10 semaines intensives au sein du <span className="underline">bootcamp de La Capsule</span>, me voilà enfin diplômé d'un titre RNCP de niveau 6 : 
-            <span className="font-medium">Concepteur-développeur d’applications web & mobile</span>.
+            J'ai ainsi suivi le <span className="underline">Bootcamp de La Capsule</span> et me voilà enfin diplômé du titre RNCP de niveau 6 : <span className="font-medium">Concepteur-développeur d’applications web & mobile</span>.
             Mon souhait est maintenant de trouver un emploi en tant que <span className="font-medium">Développeur Full-stack</span> afin de poursuivre ma passion. 
             Ma stack principale est <span className="font-medium">React, React Native, NextJs, Node.js, MongoDB</span>. Je suis également familié avec <span className="italic">Typescript et Tailwind</span>.    
         </p>
