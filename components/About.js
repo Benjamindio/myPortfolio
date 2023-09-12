@@ -34,7 +34,7 @@ export default function About() {
             Ma stack principale est <span className="font-medium">React, React Native, NextJs, Node.js, MongoDB</span>. Je suis également familié avec <span className="italic">Typescript et Tailwind</span>.    
         </p>
         <p>
-            Quand je ne suis pas le nez dans le code, j'aime beaucoup joué aux <span className="italic">jeux vidéo</span> et notamment au FPS compétitif, <span className="italic">regarder des séries</span>,
+            Quand je ne suis pas le nez dans le code, j'aime beaucoup jouer aux <span className="italic">jeux vidéo</span> et notamment aux FPS compétitifs, <span className="italic">regarder des séries</span>,
             <span className="italic">voyager</span> et me <span className="italic">former sur différents sujets</span>. 
         </p>
     </motion.section>
